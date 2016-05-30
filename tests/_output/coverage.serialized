@@ -1,0 +1,725 @@
+<?php
+$coverage = new PHP_CodeCoverage;
+$coverage->setData(array (
+  '/home/fmizzell/workspace/genetic-algorithm/src/Chromosome/Chromosome.php' => 
+  array (
+    11 => 
+    array (
+      0 => 'GeneticAlgorithmTest::testChromosome',
+      1 => 'GeneticAlgorithmTest::testMutator',
+      2 => 'GeneticAlgorithmTest::testBreeder',
+      3 => 'GeneticAlgorithmTest::testSelectionPool',
+    ),
+    12 => 
+    array (
+      0 => 'GeneticAlgorithmTest::testChromosome',
+      1 => 'GeneticAlgorithmTest::testMutator',
+      2 => 'GeneticAlgorithmTest::testBreeder',
+      3 => 'GeneticAlgorithmTest::testSelectionPool',
+    ),
+    13 => 
+    array (
+      0 => 'GeneticAlgorithmTest::testChromosome',
+      1 => 'GeneticAlgorithmTest::testMutator',
+      2 => 'GeneticAlgorithmTest::testBreeder',
+      3 => 'GeneticAlgorithmTest::testSelectionPool',
+    ),
+    23 => 
+    array (
+      0 => 'GeneticAlgorithmTest::testMutator',
+      1 => 'GeneticAlgorithmTest::testBreeder',
+      2 => 'GeneticAlgorithmTest::testSelectionPool',
+    ),
+    24 => NULL,
+    39 => 
+    array (
+      0 => 'GeneticAlgorithmTest::testChromosome',
+      1 => 'GeneticAlgorithmTest::testBreeder',
+    ),
+    40 => 
+    array (
+      0 => 'GeneticAlgorithmTest::testChromosome',
+      1 => 'GeneticAlgorithmTest::testBreeder',
+    ),
+    41 => NULL,
+    42 => 
+    array (
+      0 => 'GeneticAlgorithmTest::testChromosome',
+    ),
+    43 => NULL,
+    55 => 
+    array (
+      0 => 'GeneticAlgorithmTest::testChromosome',
+    ),
+    56 => 
+    array (
+      0 => 'GeneticAlgorithmTest::testChromosome',
+    ),
+    57 => NULL,
+    58 => 
+    array (
+      0 => 'GeneticAlgorithmTest::testChromosome',
+    ),
+    59 => NULL,
+    74 => 
+    array (
+      0 => 'GeneticAlgorithmTest::testChromosome',
+      1 => 'GeneticAlgorithmTest::testBreeder',
+    ),
+    75 => 
+    array (
+      0 => 'GeneticAlgorithmTest::testChromosome',
+      1 => 'GeneticAlgorithmTest::testBreeder',
+    ),
+    76 => 
+    array (
+      0 => 'GeneticAlgorithmTest::testChromosome',
+      1 => 'GeneticAlgorithmTest::testBreeder',
+    ),
+    78 => 
+    array (
+      0 => 'GeneticAlgorithmTest::testChromosome',
+    ),
+    80 => 
+    array (
+      0 => 'GeneticAlgorithmTest::testChromosome',
+      1 => 'GeneticAlgorithmTest::testBreeder',
+    ),
+    92 => 
+    array (
+      0 => 'GeneticAlgorithmTest::testChromosome',
+    ),
+    93 => 
+    array (
+      0 => 'GeneticAlgorithmTest::testChromosome',
+    ),
+    94 => 
+    array (
+      0 => 'GeneticAlgorithmTest::testChromosome',
+    ),
+    96 => 
+    array (
+      0 => 'GeneticAlgorithmTest::testChromosome',
+    ),
+    98 => 
+    array (
+      0 => 'GeneticAlgorithmTest::testChromosome',
+    ),
+    110 => 
+    array (
+      0 => 'GeneticAlgorithmTest::testChromosome',
+      1 => 'GeneticAlgorithmTest::testBreeder',
+    ),
+    111 => NULL,
+    114 => 
+    array (
+      0 => 'GeneticAlgorithmTest::testChromosome',
+      1 => 'GeneticAlgorithmTest::testMutator',
+    ),
+    115 => 
+    array (
+      0 => 'GeneticAlgorithmTest::testChromosome',
+      1 => 'GeneticAlgorithmTest::testMutator',
+    ),
+    116 => 
+    array (
+      0 => 'GeneticAlgorithmTest::testChromosome',
+      1 => 'GeneticAlgorithmTest::testMutator',
+    ),
+    117 => 
+    array (
+      0 => 'GeneticAlgorithmTest::testChromosome',
+      1 => 'GeneticAlgorithmTest::testMutator',
+    ),
+    118 => 
+    array (
+      0 => 'GeneticAlgorithmTest::testChromosome',
+      1 => 'GeneticAlgorithmTest::testMutator',
+    ),
+    119 => NULL,
+  ),
+  '/home/fmizzell/workspace/genetic-algorithm/src/Chromosome/Binary.php' => 
+  array (
+    7 => 
+    array (
+      0 => 'GeneticAlgorithmTest::testChromosome',
+      1 => 'GeneticAlgorithmTest::testMutator',
+      2 => 'GeneticAlgorithmTest::testBreeder',
+      3 => 'GeneticAlgorithmTest::testSelectionPool',
+    ),
+    8 => 
+    array (
+      0 => 'GeneticAlgorithmTest::testChromosome',
+      1 => 'GeneticAlgorithmTest::testMutator',
+      2 => 'GeneticAlgorithmTest::testBreeder',
+      3 => 'GeneticAlgorithmTest::testSelectionPool',
+    ),
+    9 => 
+    array (
+      0 => 'GeneticAlgorithmTest::testChromosome',
+      1 => 'GeneticAlgorithmTest::testMutator',
+      2 => 'GeneticAlgorithmTest::testBreeder',
+      3 => 'GeneticAlgorithmTest::testSelectionPool',
+    ),
+    12 => 
+    array (
+      0 => 'GeneticAlgorithmTest::testMutator',
+      1 => 'GeneticAlgorithmTest::testSelectionPool',
+    ),
+    13 => 
+    array (
+      0 => 'GeneticAlgorithmTest::testMutator',
+      1 => 'GeneticAlgorithmTest::testSelectionPool',
+    ),
+    14 => 
+    array (
+      0 => 'GeneticAlgorithmTest::testMutator',
+      1 => 'GeneticAlgorithmTest::testSelectionPool',
+    ),
+    15 => 
+    array (
+      0 => 'GeneticAlgorithmTest::testMutator',
+      1 => 'GeneticAlgorithmTest::testSelectionPool',
+    ),
+    16 => 
+    array (
+      0 => 'GeneticAlgorithmTest::testMutator',
+      1 => 'GeneticAlgorithmTest::testSelectionPool',
+    ),
+    17 => 
+    array (
+      0 => 'GeneticAlgorithmTest::testMutator',
+      1 => 'GeneticAlgorithmTest::testSelectionPool',
+    ),
+  ),
+  '/home/fmizzell/workspace/genetic-algorithm/src/Util/Random/ProbabilityChecker.php' => 
+  array (
+    7 => 
+    array (
+    ),
+    8 => 
+    array (
+    ),
+    9 => NULL,
+  ),
+  '/home/fmizzell/workspace/genetic-algorithm/src/Mutator.php' => 
+  array (
+    10 => 
+    array (
+      0 => 'GeneticAlgorithmTest::testMutator',
+    ),
+    11 => 
+    array (
+      0 => 'GeneticAlgorithmTest::testMutator',
+    ),
+    14 => 
+    array (
+      0 => 'GeneticAlgorithmTest::testMutator',
+    ),
+    15 => 
+    array (
+      0 => 'GeneticAlgorithmTest::testMutator',
+    ),
+    19 => 
+    array (
+      0 => 'GeneticAlgorithmTest::testMutator',
+    ),
+    20 => 
+    array (
+      0 => 'GeneticAlgorithmTest::testMutator',
+    ),
+    21 => 
+    array (
+      0 => 'GeneticAlgorithmTest::testMutator',
+    ),
+    22 => 
+    array (
+      0 => 'GeneticAlgorithmTest::testMutator',
+    ),
+    23 => 
+    array (
+      0 => 'GeneticAlgorithmTest::testMutator',
+    ),
+    24 => 
+    array (
+      0 => 'GeneticAlgorithmTest::testMutator',
+    ),
+    25 => 
+    array (
+      0 => 'GeneticAlgorithmTest::testMutator',
+    ),
+    26 => NULL,
+    29 => 
+    array (
+    ),
+    30 => NULL,
+  ),
+  '/home/fmizzell/workspace/genetic-algorithm/src/Util/Random/IntegerGenerator.php' => 
+  array (
+    10 => 
+    array (
+      0 => 'GeneticAlgorithmTest::testBreeder',
+    ),
+    11 => 
+    array (
+      0 => 'GeneticAlgorithmTest::testBreeder',
+    ),
+    12 => 
+    array (
+      0 => 'GeneticAlgorithmTest::testBreeder',
+    ),
+    15 => 
+    array (
+      0 => 'GeneticAlgorithmTest::testBreeder',
+    ),
+    16 => NULL,
+  ),
+  '/home/fmizzell/workspace/genetic-algorithm/src/Breeder.php' => 
+  array (
+    12 => 
+    array (
+      0 => 'GeneticAlgorithmTest::testBreeder',
+    ),
+    15 => 
+    array (
+    ),
+    16 => 
+    array (
+    ),
+    19 => 
+    array (
+      0 => 'GeneticAlgorithmTest::testBreeder',
+    ),
+    20 => 
+    array (
+      0 => 'GeneticAlgorithmTest::testBreeder',
+    ),
+    21 => 
+    array (
+      0 => 'GeneticAlgorithmTest::testBreeder',
+    ),
+    23 => 
+    array (
+      0 => 'GeneticAlgorithmTest::testBreeder',
+    ),
+    25 => 
+    array (
+      0 => 'GeneticAlgorithmTest::testBreeder',
+    ),
+    26 => 
+    array (
+      0 => 'GeneticAlgorithmTest::testBreeder',
+    ),
+    28 => 
+    array (
+      0 => 'GeneticAlgorithmTest::testBreeder',
+    ),
+    29 => 
+    array (
+      0 => 'GeneticAlgorithmTest::testBreeder',
+    ),
+    30 => 
+    array (
+      0 => 'GeneticAlgorithmTest::testBreeder',
+    ),
+    31 => 
+    array (
+      0 => 'GeneticAlgorithmTest::testBreeder',
+    ),
+    32 => NULL,
+    35 => 
+    array (
+      0 => 'GeneticAlgorithmTest::testBreeder',
+    ),
+    36 => 
+    array (
+      0 => 'GeneticAlgorithmTest::testBreeder',
+    ),
+    37 => 
+    array (
+      0 => 'GeneticAlgorithmTest::testBreeder',
+    ),
+    38 => 
+    array (
+      0 => 'GeneticAlgorithmTest::testBreeder',
+    ),
+    39 => 
+    array (
+      0 => 'GeneticAlgorithmTest::testBreeder',
+    ),
+    40 => 
+    array (
+      0 => 'GeneticAlgorithmTest::testBreeder',
+    ),
+    41 => 
+    array (
+      0 => 'GeneticAlgorithmTest::testBreeder',
+    ),
+    42 => NULL,
+    45 => 
+    array (
+      0 => 'GeneticAlgorithmTest::testBreeder',
+    ),
+    46 => 
+    array (
+      0 => 'GeneticAlgorithmTest::testBreeder',
+    ),
+    47 => 
+    array (
+      0 => 'GeneticAlgorithmTest::testBreeder',
+    ),
+    48 => 
+    array (
+      0 => 'GeneticAlgorithmTest::testBreeder',
+    ),
+    49 => 
+    array (
+      0 => 'GeneticAlgorithmTest::testBreeder',
+    ),
+    50 => 
+    array (
+      0 => 'GeneticAlgorithmTest::testBreeder',
+    ),
+    51 => NULL,
+    54 => 
+    array (
+    ),
+    55 => NULL,
+  ),
+  '/home/fmizzell/workspace/genetic-algorithm/src/SelectionPool.php' => 
+  array (
+    25 => 
+    array (
+      0 => 'GeneticAlgorithmTest::testSelectionPool',
+    ),
+    26 => 
+    array (
+      0 => 'GeneticAlgorithmTest::testSelectionPool',
+    ),
+    27 => 
+    array (
+      0 => 'GeneticAlgorithmTest::testSelectionPool',
+    ),
+    28 => 
+    array (
+      0 => 'GeneticAlgorithmTest::testSelectionPool',
+    ),
+    31 => 
+    array (
+    ),
+    32 => 
+    array (
+    ),
+    33 => NULL,
+    36 => 
+    array (
+      0 => 'GeneticAlgorithmTest::testSelectionPool',
+    ),
+    37 => NULL,
+    40 => 
+    array (
+      0 => 'GeneticAlgorithmTest::testSelectionPool',
+    ),
+    42 => 
+    array (
+      0 => 'GeneticAlgorithmTest::testSelectionPool',
+    ),
+    44 => 
+    array (
+      0 => 'GeneticAlgorithmTest::testSelectionPool',
+    ),
+    45 => 
+    array (
+    ),
+    46 => 
+    array (
+    ),
+    48 => 
+    array (
+      0 => 'GeneticAlgorithmTest::testSelectionPool',
+    ),
+    49 => 
+    array (
+      0 => 'GeneticAlgorithmTest::testSelectionPool',
+    ),
+    51 => 
+    array (
+      0 => 'GeneticAlgorithmTest::testSelectionPool',
+    ),
+    52 => 
+    array (
+      0 => 'GeneticAlgorithmTest::testSelectionPool',
+    ),
+    55 => 
+    array (
+      0 => 'GeneticAlgorithmTest::testSelectionPool',
+    ),
+    56 => 
+    array (
+      0 => 'GeneticAlgorithmTest::testSelectionPool',
+    ),
+    58 => 
+    array (
+      0 => 'GeneticAlgorithmTest::testSelectionPool',
+    ),
+    59 => 
+    array (
+      0 => 'GeneticAlgorithmTest::testSelectionPool',
+    ),
+    61 => 
+    array (
+      0 => 'GeneticAlgorithmTest::testSelectionPool',
+    ),
+    63 => 
+    array (
+      0 => 'GeneticAlgorithmTest::testSelectionPool',
+    ),
+    65 => 
+    array (
+      0 => 'GeneticAlgorithmTest::testSelectionPool',
+    ),
+    66 => 
+    array (
+      0 => 'GeneticAlgorithmTest::testSelectionPool',
+    ),
+    67 => 
+    array (
+      0 => 'GeneticAlgorithmTest::testSelectionPool',
+    ),
+    68 => 
+    array (
+      0 => 'GeneticAlgorithmTest::testSelectionPool',
+    ),
+    70 => 
+    array (
+      0 => 'GeneticAlgorithmTest::testSelectionPool',
+    ),
+    71 => NULL,
+    74 => 
+    array (
+      0 => 'GeneticAlgorithmTest::testSelectionPool',
+    ),
+    75 => NULL,
+  ),
+  '/home/fmizzell/workspace/genetic-algorithm/src/FitnessEvaluator.php' => 
+  array (
+    14 => 
+    array (
+      0 => 'GeneticAlgorithmTest::testSelectionPool',
+    ),
+    15 => 
+    array (
+      0 => 'GeneticAlgorithmTest::testSelectionPool',
+    ),
+    16 => 
+    array (
+      0 => 'GeneticAlgorithmTest::testSelectionPool',
+    ),
+    17 => 
+    array (
+      0 => 'GeneticAlgorithmTest::testSelectionPool',
+    ),
+    18 => 
+    array (
+      0 => 'GeneticAlgorithmTest::testSelectionPool',
+    ),
+    19 => NULL,
+  ),
+  '/home/fmizzell/workspace/genetic-algorithm/src/Evolution.php' => 
+  array (
+    30 => 
+    array (
+    ),
+    31 => 
+    array (
+    ),
+    32 => 
+    array (
+    ),
+    35 => 
+    array (
+    ),
+    36 => 
+    array (
+    ),
+    39 => 
+    array (
+    ),
+    40 => 
+    array (
+    ),
+    43 => 
+    array (
+    ),
+    44 => 
+    array (
+    ),
+    45 => 
+    array (
+    ),
+    46 => 
+    array (
+    ),
+    47 => 
+    array (
+    ),
+    48 => 
+    array (
+    ),
+    51 => 
+    array (
+    ),
+    53 => 
+    array (
+    ),
+    54 => 
+    array (
+    ),
+    56 => 
+    array (
+    ),
+    58 => 
+    array (
+    ),
+    59 => 
+    array (
+    ),
+    61 => 
+    array (
+    ),
+    62 => 
+    array (
+    ),
+    65 => 
+    array (
+    ),
+    66 => 
+    array (
+    ),
+    67 => 
+    array (
+    ),
+    69 => 
+    array (
+    ),
+    71 => 
+    array (
+    ),
+    72 => 
+    array (
+    ),
+    73 => 
+    array (
+    ),
+    76 => 
+    array (
+    ),
+    78 => 
+    array (
+    ),
+    80 => 
+    array (
+    ),
+    82 => 
+    array (
+    ),
+    85 => 
+    array (
+    ),
+    86 => 
+    array (
+    ),
+    88 => 
+    array (
+    ),
+    89 => 
+    array (
+    ),
+    90 => 
+    array (
+    ),
+    91 => 
+    array (
+    ),
+    92 => 
+    array (
+    ),
+    94 => 
+    array (
+    ),
+    96 => 
+    array (
+    ),
+    97 => 
+    array (
+    ),
+    98 => 
+    array (
+    ),
+    99 => 
+    array (
+    ),
+    100 => 
+    array (
+    ),
+    101 => 
+    array (
+    ),
+    103 => 
+    array (
+    ),
+    104 => 
+    array (
+    ),
+    105 => 
+    array (
+    ),
+    106 => 
+    array (
+    ),
+  ),
+));
+$coverage->setTests(array (
+  'GeneticAlgorithmTest::testChromosome' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'GeneticAlgorithmTest::testMutator' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'GeneticAlgorithmTest::testBreeder' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'GeneticAlgorithmTest::testSelectionPool' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'UNCOVERED_FILES_FROM_WHITELIST' => 
+  array (
+    'size' => 'unknown',
+    'status' => NULL,
+  ),
+));
+
+$filter = $coverage->filter();
+$filter->setBlacklistedFiles(array (
+));
+$filter->setWhitelistedFiles(array (
+  '/home/fmizzell/workspace/genetic-algorithm/src/Evolution.php' => true,
+  '/home/fmizzell/workspace/genetic-algorithm/src/Breeder.php' => true,
+  '/home/fmizzell/workspace/genetic-algorithm/src/Util/Random/ProbabilityChecker.php' => true,
+  '/home/fmizzell/workspace/genetic-algorithm/src/Util/Random/IntegerGenerator.php' => true,
+  '/home/fmizzell/workspace/genetic-algorithm/src/SelectionPool.php' => true,
+  '/home/fmizzell/workspace/genetic-algorithm/src/FitnessEvaluator.php' => true,
+  '/home/fmizzell/workspace/genetic-algorithm/src/Chromosome/Binary.php' => true,
+  '/home/fmizzell/workspace/genetic-algorithm/src/Chromosome/Chromosome.php' => true,
+  '/home/fmizzell/workspace/genetic-algorithm/src/Mutator.php' => true,
+));
+
+return $coverage;
