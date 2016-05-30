@@ -1,5 +1,7 @@
 {
     "name": "fmizzell/genetic-algorithm",
+    "description": "An implementation of genetic algorithms in PHP.",
+    "license": "GPL-3.0",
     "authors": [
         {
             "name": "fmizzell",
