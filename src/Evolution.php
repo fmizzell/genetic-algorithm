@@ -58,9 +58,6 @@ class Evolution {
             $selection_pool = new SelectionPool($this->currentPopulation, $this->fitnessEvaluator);
             $this->highestFitness = $selection_pool->getHighestFitness();
 
-            print_r("Generation {$generation}" . PHP_EOL);
-            print_r("Max Fitness: {$this->highestFitness}" . PHP_EOL);
-
             // Lets have a check in case that the first population provides the highest fitness.
             if ($this->highestFitness >= $this->stopCriteria) {
                 break;
