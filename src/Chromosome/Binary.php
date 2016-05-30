@@ -15,5 +15,5 @@ class Binary extends Chromosome {
     }
     $this->genes[$key] = $new_value;
   }
-}
 
+}

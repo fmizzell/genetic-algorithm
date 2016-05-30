@@ -1,15 +1,5 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: fmizzell
- * Date: 5/5/16
- * Time: 8:55 PM
- */
-
 namespace Fmizzell\GeneticAlgorithm;
-
-
-use Traversable;
 
 class SelectionPool implements \IteratorAggregate {
   private $fitnessEvaluator;
@@ -73,4 +63,5 @@ class SelectionPool implements \IteratorAggregate {
   public function getIterator() {
     return new \ArrayIterator(($this->pool));
   }
+
 }

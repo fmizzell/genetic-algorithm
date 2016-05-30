@@ -1,20 +1,14 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: fmizzell
- * Date: 5/5/16
- * Time: 9:08 PM
- */
-
 namespace Fmizzell\GeneticAlgorithm;
-
+use Fmizzell\GeneticAlgorithm\Chromosome\Chromosome;
 
 class FitnessEvaluator {
-  public function evaluate($chromosome) {
+  public function evaluate(Chromosome $chromosome) {
     $fitness = 0;
     foreach ($chromosome->getIterator() as $gene) {
       $fitness += $gene;
     }
     return $fitness;
   }
+
 }

@@ -1,7 +1,6 @@
 <?php
 namespace Fmizzell\GeneticAlgorithm\Util\Random;
 
-
 class IntegerGenerator {
     private $min;
     private $max;

@@ -1,7 +1,5 @@
 <?php
-
 namespace Fmizzell\GeneticAlgorithm;
-
 
 class Evolution {
 
@@ -101,4 +99,5 @@ class Evolution {
         }
         return $population;
     }
+
 }

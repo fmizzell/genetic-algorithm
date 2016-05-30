@@ -7,7 +7,6 @@ use Fmizzell\GeneticAlgorithm\FitnessEvaluator;
 use \Mockery as m;
 use Codeception\Util\Debug as d;
 
-
 class GeneticAlgorithmTest extends \Codeception\TestCase\Test
 {
     /**

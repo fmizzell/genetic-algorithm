@@ -1,6 +1,5 @@
 <?php
 namespace Fmizzell\GeneticAlgorithm\Chromosome;
-
 use Traversable;
 
 class Chromosome implements \IteratorAggregate, \ArrayAccess, \Countable {

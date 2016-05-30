@@ -2,7 +2,6 @@
 namespace Fmizzell\GeneticAlgorithm;
 use Fmizzell\GeneticAlgorithm\Util\Random\ProbabilityChecker;
 
-
 class Mutator {
   private $probabilityChecker;
 
@@ -28,4 +27,5 @@ class Mutator {
   public function execute($chromosome) {
     return $this->getMutant($chromosome);
   }
+
 }

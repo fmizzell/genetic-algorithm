@@ -1,8 +1,6 @@
 <?php
-
 namespace Fmizzell\GeneticAlgorithm;
 use Fmizzell\GeneticAlgorithm\Util\Random\IntegerGenerator;
-
 
 class Breeder {
   private $randomIntegerGenerator;
@@ -53,4 +51,5 @@ class Breeder {
   public function execute($chromosome1, $chromosome2) {
     return $this->getChildren($chromosome1, $chromosome2);
   }
+
 }
